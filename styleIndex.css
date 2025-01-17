@@ -1,0 +1,61 @@
+h1{
+    color: white;
+    font-family: "Nosifer", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+}
+body{
+    background-color: #16423C;
+}
+footer{
+    position: absolute;
+    bottom:10%;
+    left:45%;
+    color: white;
+
+}
+button{
+    display: block;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 45%;
+    border-radius: 5px;
+
+
+}
+a{
+    text-decoration: none;
+}
+#b1{
+    margin-top: 50px;
+}
+#b2{
+    left: 44.5%;
+    padding: 6px 12px;
+}
+img{
+    height: 200px;
+    position: relative;
+    left:42%;
+}
+
+
+@media (max-width: 400px) {
+    img {
+        height:100px;
+        position: relative;
+        left:35%;
+    }
+    #b2{
+        left:35%;
+    }
+    #b1{
+        left:36%;
+    }
+    footer{
+        left:36%;
+    }
+}
